@@ -1,0 +1,98 @@
+.about {
+  &__container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 3rem 1rem;
+  }
+
+  &__hero {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    margin-bottom: 4rem;
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+      text-align: center;
+      gap: 1.5rem;
+    }
+  }
+
+  &__avatar {
+    width: 140px;
+    height: 140px;
+    min-width: 140px;
+    border-radius: 50%;
+    background: var(--p-surface-800);
+    border: 4px solid var(--p-primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--p-primary-color);
+  }
+
+  &__intro {
+    h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      margin: 0 0 0.25rem;
+    }
+  }
+
+  &__role {
+    color: var(--p-primary-color);
+    font-weight: 500;
+    font-size: 1.1rem;
+    margin: 0 0 1rem;
+  }
+
+  &__bio {
+    color: var(--p-text-muted-color);
+    line-height: 1.7;
+    margin: 0;
+  }
+
+  &__section {
+    h2 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin-bottom: 2rem;
+      padding-bottom: 0.75rem;
+      border-bottom: 2px solid var(--p-primary-color);
+      display: inline-block;
+    }
+  }
+
+  &__timeline-item {
+    padding: 0 0 2rem 1rem;
+  }
+
+  &__timeline-period {
+    font-size: 0.85rem;
+    color: var(--p-primary-color);
+    font-weight: 600;
+    display: block;
+    margin-bottom: 0.25rem;
+  }
+
+  &__timeline-item h3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: 0 0 0.25rem;
+  }
+
+  &__timeline-institution {
+    color: var(--p-primary-color);
+    font-size: 0.9rem;
+    margin: 0 0 0.5rem;
+  }
+
+  &__timeline-desc {
+    color: var(--p-text-muted-color);
+    font-size: 0.9rem;
+    line-height: 1.6;
+    margin: 0;
+  }
+}

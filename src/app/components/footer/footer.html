@@ -1,0 +1,15 @@
+<footer class="footer">
+  <div class="footer__container">
+
+    <span class="footer__name">Francisco Naifa</span>
+
+    <div class="footer__links">
+      @for (link of links; track link.url) {
+        <p-button [icon]="link.icon" [text]="true" [rounded]="true" [ariaLabel]="link.label" (onClick)="open(link.url)" />
+      }
+    </div>
+
+    <span class="footer__copy">© {{ year }} Todos os direitos reservados</span>
+
+  </div>
+</footer>

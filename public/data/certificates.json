@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "title": "SPRING BOOT 3: DESENVOLVA UMA API REST EM JAVA",
+    "institution": "Alura",
+    "area": "Backend",
+    "hours": 10,
+    "year": 2026,
+    "credentialUrl": "https://cursos.alura.com.br/user/francisco-naifa/course/spring-boot-3-desenvolva-api-rest-java/certificate",
+    "imageUrl": ""
+  },
+   {
+    "id": 2,
+    "title": "DJANGO: TEMPLATES E BOAS PRÁTICAS",
+    "institution": "Alura",
+    "area": "Frontend",
+    "hours": 8,
+    "year": 2026,
+    "credentialUrl": "https://cursos.alura.com.br/user/francisco-naifa/course/django-templates-boas-praticas/certificate",
+    "imageUrl": ""
+  },
+   {
+    "id": 3,
+    "title": "PRATICANDO PYTHON: STRINGS E REGEX",
+    "institution": "Alura",
+    "area": "Python",
+    "hours": 4,
+    "year": 2026,
+    "credentialUrl": "https://cursos.alura.com.br/user/francisco-naifa/course/praticando-python-strings-regex/certificate",
+    "imageUrl": ""
+  },
+   {
+    "id": 4,
+    "title": "PRATICANDO PYTHON: LAÇOS FOR E WHILE",
+    "institution": "Alura",
+    "area": "Python",
+    "hours": 2,
+    "year": 2026,
+    "credentialUrl": "https://cursos.alura.com.br/user/francisco-naifa/course/praticando-python-lacos-for-while/certificate",
+    "imageUrl": ""
+  },
+   {
+    "id": 5,
+    "title": "Praticando Python: condicionais if, elif e else ",
+    "institution": "Alura",
+    "area": "Python",
+    "hours": 2,
+    "year": 2026,
+    "credentialUrl": "https://cursos.alura.com.br/user/francisco-naifa/course/praticando-python-condicionais-if-elif-e-else/certificate",
+    "imageUrl": ""
+  },
+   {
+    "id": 6,
+    "title": "PENSAMENTO COMPUTACIONAL: FUNDAMENTOS DA COMPUTAÇÃO E LÓGICA DE PROGRAMAÇÃO",
+    "institution": "Alura",
+    "area": "Lógica",
+    "hours": 8,
+    "year": 2026,
+    "credentialUrl": "https://cursos.alura.com.br/user/francisco-naifa/course/computacao-fundamentos-computacao-pensamento-computacional/certificate",
+    "imageUrl": ""
+  },
+   {
+    "id": 7,
+    "title": "PHP: CONHEÇA A PROGRAMAÇÃO ORIENTADA A OBJETOS",
+    "institution": "Alura",
+    "area": "Backend",
+    "hours": 8,
+    "year": 2026,
+    "credentialUrl": "https://cursos.alura.com.br/user/francisco-naifa/course/php-programacao-orientada-objetos/certificate",
+    "imageUrl": ""
+  },
+   {
+    "id": 8,
+    "title": "CRIE A SUA PRIMEIRA APLICAÇÃO",
+    "institution": "Alura",
+    "area": "Backend",
+    "hours": 8,
+    "year": 2026,
+    "credentialUrl": "https://cursos.alura.com.br/user/francisco-naifa/course/python-crie-sua-primeira-aplicacao/certificate",
+    "imageUrl": ""
+  },
+  {
+    "id": 9,
+    "title": "JAVASCRIPT",
+    "institution": "Curso em VíJdeo",
+    "area": "JAVASCRIPT",
+    "hours": 40,
+    "year": 2023,
+    "credentialUrl": "https://drive.google.com/file/d/1PTmW6izoezP4dS4WD83psyS-uN7qpnId/view?usp=sharing",
+    "imageUrl": ""
+  },
+  {
+    "id": 10,
+    "title": "INGLÊS I",
+    "institution": "UFMT",
+    "area": "IDIOMA",
+    "hours": 60,
+    "year": 2023,
+    "credentialUrl": "https://drive.google.com/file/d/1vtZ1EkHqamxHt-_0zC8ZB6U-QrOQj-sJ/view?usp=sharing",
+    "imageUrl": ""
+  },
+  {
+    "id": 11,
+    "title": "UX Design na Prática",
+    "institution": "Google",
+    "area": "Design",
+    "hours": 45,
+    "year": 2024,
+    "credentialUrl": "https://certificates.google.com/exemplo",
+    "imageUrl": ""
+  },
+  {
+    "id": 12,
+    "title": "Introdução a segurança de Redes Sem Fio e Tecnologias",
+    "institution": "UFMT",
+    "area": "Redes",
+    "hours": 6,
+    "year": 2024,
+    "credentialUrl": "https://drive.google.com/file/d/1otja7dXKHQsPGvQpGUdfC9-GecN6wPbI/view?usp=sharing",
+    "imageUrl": ""
+  },
+  {
+    "id": 13,
+    "title": "INGLÊS IV",
+    "institution": "UFMT",
+    "area": "IDIOMA",
+    "hours": 60,
+    "year": 2024,
+    "credentialUrl": "https://drive.google.com/file/d/13EKeFLoc9uQ3NdXwjZXl-KgRBZxjnbVD/view?usp=sharing",
+    "imageUrl": ""
+  },
+  {
+    "id": 14,
+    "title": "INGLÊS III",
+    "institution": "UFMT",
+    "area": "IDIOMA",
+    "hours": 60,
+    "year": 2024,
+    "credentialUrl": "https://drive.google.com/file/d/17YeNSJZV8UiZynhxOA01f7hbEN8Uj0x7/view?usp=sharing",
+    "imageUrl": ""
+  },
+  {
+    "id": 15,
+    "title": "MONITORIA EM CÁLCULO I",
+    "institution": "UFMT",
+    "area": "Monitoria",
+    "hours": 600,
+    "year": "2024-2025",
+    "credentialUrl": "https://drive.google.com/file/d/1z5ZOvIVhuAqsx4SHuWdY3Sznw3P7AS9L/view?usp=sharing",
+    "imageUrl": ""
+  },
+  {
+    "id": 16,
+    "title": "Workshop sobre Lei Geral de Proteção de Dados (LGPD)",
+    "institution": "UFMT",
+    "area": "Direito",
+    "hours": 2,
+    "year": 2025,
+    "credentialUrl": "https://drive.google.com/file/d/1K6wQEUUruTLGLWCCbMQRTp6Hmz72J8e4/view?usp=sharing",
+    "imageUrl": ""
+  },
+  {
+    "id": 17,
+    "title": "Introdução ao Java",
+    "institution": "Recode",
+    "area": "Java",
+    "hours": 30,
+    "year": 2025,
+    "credentialUrl": "https://drive.google.com/file/d/12MjaR5UYzq_SiAgWygugEFR4eRmPfU9i/view?usp=sharing",
+    "imageUrl": ""
+  },
+  {
+    "id": 18,
+    "title": "Desenvolvimento de Sistemas Web - Básico",
+    "institution": "Recode",
+    "area": "Backend",
+    "hours": 40,
+    "year": 2025,
+    "credentialUrl": "https://drive.google.com/file/d/1XVc4-1kqX7CTqrCy5U7U-Ut8tW6v4mTu/view?usp=sharing",
+    "imageUrl": ""
+  },
+  {
+    "id": 19,
+    "title": "Computação em Nuvem",
+    "institution": "Recode",
+    "area": "Cloud",
+    "hours": 40,
+    "year": 2025,
+    "credentialUrl": "https://drive.google.com/file/d/1tcHgP3aP1CHEhpRyIb0b-7DDBDs6w8pq/view?usp=sharing",
+    "imageUrl": ""
+  },
+  {
+    "id": 20,
+    "title": "Desenvolvimento de Sistemas Web - Intermediário",
+    "institution": "Recode",
+    "area": "Backend",
+    "hours": 40,
+    "year": 2025,
+    "credentialUrl": "https://drive.google.com/file/d/1Un3lTHDfRLdzxN3ECxNjuq_G3sSvM6Oy/view?usp=sharing",
+    "imageUrl": ""
+  },
+  {
+    "id": 21,
+    "title": "Back End",
+    "institution": "Recode",
+    "area": "Backend",
+    "hours": 25,
+    "year": 2025,
+    "credentialUrl": "https://drive.google.com/file/d/1PfBTELSyNuyTvZTCH5h67bLrWoutw-1G/view?usp=sharing",
+    "imageUrl": ""
+  },
+  {
+    "id": 22,
+    "title": "CERTIFICADO DE PUBLICAÇÃO DE ARTIGO",
+    "institution": "UFMT",
+    "area": "Pesquisa",
+    "hours": 45,
+    "year": 2025,
+    "credentialUrl": "https://drive.google.com/file/d/1ZZCqBEuZYiASLuyjiSW2JPY8tb-jzJD6/view?usp=sharing",
+    "imageUrl": ""
+  },
+  {
+    "id": 23,
+    "title": "PROJETO DE EXTENSÃO",
+    "institution": "UFMT",
+    "area": "Pesquisa",
+    "hours": 288,
+    "year": 2024,
+    "credentialUrl": "https://drive.google.com/file/d/1damSVpj8DX1JyHACVcPpF-L0C0a1928X/view?usp=sharing",
+    "imageUrl": ""
+  },
+  {
+    "id": 24,
+    "title": "DECLARAÇÃO DE PULSAR",
+    "institution": "UNILAB",
+    "area": "Pesquisa",
+    "hours": 15,
+    "year": 2020,
+    "credentialUrl": "https://drive.google.com/file/d/1y_93bRfXRwT6iFUG1ylmZtydzS7mb8X4/view?usp=sharing",
+    "imageUrl": ""
+  }
+]

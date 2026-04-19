@@ -1,0 +1,28 @@
+<section class="skills">
+  <div class="skills__container">
+
+    <div class="skills__header">
+      <h1>Skills</h1>
+      <p>Tecnologias e ferramentas que utilizo no dia a dia</p>
+    </div>
+
+    <div class="skills__categories">
+      @for (category of categories; track category.name) {
+        <div class="skills__category">
+          <h2>{{ category.name }}</h2>
+          <div class="skills__grid">
+            @for (skill of category.skills; track skill.name) {
+              <div class="skills__card">
+                <span class="skills__name">{{ skill.name }}</span>
+                <span class="skills__level skills__level--{{ skill.level | lowercase }}">
+                  {{ skill.level }}
+                </span>
+              </div>
+            }
+          </div>
+        </div>
+      }
+    </div>
+
+  </div>
+</section>

@@ -1,0 +1,35 @@
+<section class="home">
+  <div class="home__container">
+
+    <div class="home__content">
+      <p class="home__greeting">Olá, eu sou</p>
+      <h1 class="home__name">Francisco Naifa</h1>
+      <h2 class="home__role">Desenvolvedor Full Stack</h2>
+
+      <p class="home__bio">
+        Engenheiro de Computação pela UFMT e desenvolvedor Full Stack.
+        Trabalho com Java e Go no backend e Angular no frontend.
+        Atualmente aprofundando meus conhecimentos em desenvolvimento
+        de sistemas com Java na pós-graduação.
+      </p>
+
+      <div class="home__techs">
+        @for (tech of techs; track tech) {
+          <span class="home__tech">{{ tech }}</span>
+        }
+      </div>
+
+      <div class="home__actions">
+        <p-button label="Ver certificações" routerLink="/certificacoes" />
+        <p-button label="Ver projetos" routerLink="/projetos" [outlined]="true" />
+      </div>
+    </div>
+
+    <div class="home__avatar">
+      <div class="home__avatar-circle">
+        FN
+      </div>
+    </div>
+
+  </div>
+</section>

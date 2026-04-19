@@ -1,0 +1,25 @@
+<section class="contact">
+  <div class="contact__container">
+
+    <div class="contact__header">
+      <h1>Contato</h1>
+      <p>Fique à vontade para entrar em contato comigo por qualquer um dos canais abaixo.</p>
+    </div>
+
+    <div class="contact__cards">
+      @for (contact of contacts; track contact.label) {
+        <div class="contact__card" (click)="open(contact.url)">
+          <div class="contact__icon">
+            <i [class]="contact.icon"></i>
+          </div>
+          <div class="contact__info">
+            <h2>{{ contact.label }}</h2>
+            <p>{{ contact.description }}</p>
+          </div>
+          <i class="pi pi-arrow-right contact__arrow"></i>
+        </div>
+      }
+    </div>
+
+  </div>
+</section>

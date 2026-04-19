@@ -1,0 +1,26 @@
+<section class="certifications">
+  <div class="certifications__header">
+    <h1>Certificações</h1>
+    <div class="certifications__stats">
+      <span>{{ certificates().length }} certificados</span>
+      <span>{{ totalHours() }}h de estudo</span>
+    </div>
+  </div>
+
+  <div class="certifications__filters">
+    @for (area of areas(); track area) {
+      <p-button
+        [label]="area"
+        [outlined]="selectedArea() !== area"
+        size="small"
+        (onClick)="setArea(area)"
+      />
+    }
+  </div>
+
+  <div class="certifications__grid">
+    @for (cert of filtered(); track cert.id) {
+      <app-cert-card [certificate]="cert" />
+    }
+  </div>
+</section>

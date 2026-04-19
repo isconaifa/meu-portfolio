@@ -1,0 +1,32 @@
+<p-card [style]="{ height: '100%' }">
+  <ng-template #header>
+    <div class="card-area-badge">
+      <p-tag [value]="certificate().area" severity="info" />
+    </div>
+  </ng-template>
+
+  <ng-template #title>
+    {{ certificate().title }}
+  </ng-template>
+
+  <ng-template #subtitle>
+    {{ certificate().institution }}
+  </ng-template>
+
+  <ng-template #content>
+    <div class="card-meta">
+      <span>{{ certificate().year }}</span>
+      <span>{{ certificate().hours }}h</span>
+    </div>
+  </ng-template>
+
+  <ng-template #footer>
+    <p-button
+      label="Ver certificado"
+      icon="pi pi-external-link"
+      [outlined]="true"
+      size="small"
+      (onClick)="openCredential()"
+    />
+  </ng-template>
+</p-card>

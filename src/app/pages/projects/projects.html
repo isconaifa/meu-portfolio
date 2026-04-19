@@ -1,0 +1,36 @@
+<section class="projects">
+  <div class="projects__container">
+
+    <div class="projects__header">
+      <h1>Projetos</h1>
+      <p>Projetos pessoais e de estudo disponíveis no GitHub</p>
+    </div>
+
+    <div class="projects__grid">
+      @for (project of projects(); track project.id) {
+        <div class="projects__card">
+          <div class="projects__card-header">
+            <span class="projects__category">{{ project.category }}</span>
+            <h2>{{ project.title }}</h2>
+          </div>
+          <p class="projects__description">{{ project.description }}</p>
+          <div class="projects__techs">
+            @for (tech of project.techs; track tech) {
+              <span class="projects__tech">{{ tech }}</span>
+            }
+          </div>
+          <div class="projects__footer">
+            <p-button
+              label="Ver no GitHub"
+              icon="pi pi-github"
+              [outlined]="true"
+              size="small"
+              (onClick)="openGithub(project.githubUrl)"
+            />
+          </div>
+        </div>
+      }
+    </div>
+
+  </div>
+</section>

@@ -1,0 +1,91 @@
+.skills {
+  &__container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 3rem 1rem;
+  }
+
+  &__header {
+    margin-bottom: 3rem;
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      margin: 0 0 0.5rem;
+    }
+
+    p {
+      color: var(--p-text-muted-color);
+      margin: 0;
+    }
+  }
+
+  &__categories {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+
+  &__category {
+    h2 {
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: var(--p-primary-color);
+      margin: 0 0 1rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid var(--p-surface-200);
+    }
+  }
+
+  &__grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+  }
+
+  &__card {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.6rem 1rem;
+    border-radius: 8px;
+    background: var(--p-surface-800);
+    border: 1px solid var(--p-surface-600);
+    transition: border-color 0.2s, transform 0.2s;
+
+    &:hover {
+      border-color: var(--p-primary-color);
+      transform: translateY(-2px);
+    }
+  }
+
+  &__name {
+    font-size: 0.95rem;
+    font-weight: 500;
+  }
+
+  &__level {
+    font-size: 0.75rem;
+    padding: 0.2rem 0.6rem;
+    border-radius: 2rem;
+    font-weight: 500;
+
+    &--intermediario {
+      background: var(--p-surface-700);
+      color: var(--p-teal-300);
+      border: 1px solid var(--p-teal-600);
+    }
+
+    &--basico {
+      background: var(--p-surface-700);
+      color: var(--p-orange-300);
+      border: 1px solid var(--p-orange-600);
+    }
+
+    &--avancado {
+      background: var(--p-surface-700);
+      color: var(--p-green-300);
+      border: 1px solid var(--p-green-600);
+    }
+  }
+}

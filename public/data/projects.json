@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Autenticação JWT com Spring Boot",
+    "description": "API REST com autenticação JWT em Java utilizando Spring Boot, implementando geração e validação de tokens com boas práticas de segurança.",
+    "techs": ["Java", "Spring Boot", "JWT"],
+    "category": "Backend",
+    "githubUrl": "https://github.com/isconaifa/autenticacaojwtspingboot"
+  },
+  {
+    "id": 2,
+    "title": "Autenticação JWT com Go",
+    "description": "Autenticação JWT em Go com geração e validação de tokens, boas práticas de segurança e gestão de sessões.",
+    "techs": ["Go", "JWT", "Gin"],
+    "category": "Backend",
+    "githubUrl": "https://github.com/isconaifa/golang-jwt"
+  },
+  {
+    "id": 3,
+    "title": "Aplicação Angular",
+    "description": "Aplicação web desenvolvida com Angular, explorando componentes, rotas e integração com serviços.",
+    "techs": ["Angular", "TypeScript", "HTML", "CSS"],
+    "category": "Frontend",
+    "githubUrl": "https://github.com/isconaifa/Angular-aplic"
+  }
+]

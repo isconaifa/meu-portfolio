@@ -1,0 +1,128 @@
+.home {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  padding-top: 0;
+
+  &__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4rem;
+    width: 100%;
+
+    @media (max-width: 768px) {
+      flex-direction: column-reverse;
+      gap: 2rem;
+      text-align: center;
+    }
+  }
+
+  &__content {
+    flex: 1;
+  }
+
+  &__greeting {
+    font-size: 1.1rem;
+    color: var(--p-primary-color);
+    font-weight: 500;
+    margin: 0 0 0.25rem;
+  }
+
+  &__name {
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 0 0 0.5rem;
+    line-height: 1.1;
+
+    @media (max-width: 768px) {
+      font-size: 2rem;
+    }
+  }
+
+  &__role {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--p-text-muted-color);
+    margin: 0 0 1.5rem;
+
+    @media (max-width: 768px) {
+      font-size: 1.2rem;
+    }
+  }
+
+  &__bio {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: var(--p-text-muted-color);
+    max-width: 520px;
+    margin: 0 0 1.5rem;
+
+    @media (max-width: 768px) {
+      max-width: 100%;
+    }
+  }
+
+  &__techs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+
+    @media (max-width: 768px) {
+      justify-content: center;
+    }
+  }
+
+  &__tech {
+    padding: 0.35rem 0.85rem;
+    border-radius: 2rem;
+    font-size: 0.85rem;
+    font-weight: 500;
+    background: var(--p-surface-800);
+    border: 1px solid var(--p-surface-600);
+    color: var(--p-primary-color);
+    border: 1px solid var(--p-primary-200);
+  }
+
+  &__actions {
+    display: flex;
+    gap: 1rem;
+
+    @media (max-width: 768px) {
+      justify-content: center;
+    }
+  }
+
+  &__avatar {
+    display: flex;
+    justify-content: center;
+
+    @media (max-width: 768px) {
+      order: -1;
+    }
+  }
+
+  &__avatar-circle {
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    background: var(--p-surface-800);
+    border: 4px solid var(--p-primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+    font-weight: 700;
+    color: var(--p-primary-color);
+
+    @media (max-width: 768px) {
+      width: 160px;
+      height: 160px;
+      font-size: 2.5rem;
+    }
+  }
+}

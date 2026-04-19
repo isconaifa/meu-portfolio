@@ -1,0 +1,34 @@
+<section class="about">
+  <div class="about__container">
+
+    <div class="about__hero">
+      <div class="about__avatar">FN</div>
+      <div class="about__intro">
+        <h1>Francisco Naifa</h1>
+        <p class="about__role">Desenvolvedor Full Stack</p>
+        <p class="about__bio">
+          Engenheiro de Computação formado pela UFMT em novembro de 2025.
+          Atuo como desenvolvedor Full Stack, trabalhando com Java e Go no
+          backend e Angular no frontend. Apaixonado por tecnologia e em
+          constante aprendizado, atualmente cursando pós-graduação em
+          Desenvolvimento de Sistemas com Java.
+        </p>
+      </div>
+    </div>
+
+    <div class="about__section">
+      <h2>Formação acadêmica</h2>
+      <p-timeline [value]="timeline" align="left">
+        <ng-template #content let-item>
+          <div class="about__timeline-item">
+            <span class="about__timeline-period">{{ item.period }}</span>
+            <h3>{{ item.title }}</h3>
+            <p class="about__timeline-institution">{{ item.institution }}</p>
+            <p class="about__timeline-desc">{{ item.description }}</p>
+          </div>
+        </ng-template>
+      </p-timeline>
+    </div>
+
+  </div>
+</section>
