@@ -101,12 +101,12 @@
   },
   {
     "id": 11,
-    "title": "UX Design na Prática",
-    "institution": "Google",
-    "area": "Design",
-    "hours": 45,
-    "year": 2024,
-    "credentialUrl": "https://certificates.google.com/exemplo",
+    "title": "LARAVEL: CONSTRUINDO APIS",
+    "institution": "Alura",
+    "area": "Backend",
+    "hours": 8,
+    "year": 2026,
+    "credentialUrl": "https://cursos.alura.com.br/user/francisco-naifa/course/laravel-construindo-apis/certificate",
     "imageUrl": ""
   },
   {
@@ -237,6 +237,36 @@
     "hours": 15,
     "year": 2020,
     "credentialUrl": "https://drive.google.com/file/d/1y_93bRfXRwT6iFUG1ylmZtydzS7mb8X4/view?usp=sharing",
+    "imageUrl": ""
+  },
+  {
+    "id": 25,
+    "title": "LARAVEL: CRIANDO UMA APLICAÇÃO COM MVC",
+    "institution": "Alura",
+    "area": "Backend",
+    "hours": 8,
+    "year": 2026,
+    "credentialUrl": "https://cursos.alura.com.br/user/francisco-naifa/course/laravel-criando-aplicacao-mvc/certificate",
+    "imageUrl": ""
+  },
+  {
+    "id": 26,
+    "title": "PHP: CRIANDO SUA APLICAÇÃO",
+    "institution": "Alura",
+    "area": "Backend",
+    "hours": 8,
+    "year": 2026,
+    "credentialUrl": "https://cursos.alura.com.br/user/francisco-naifa/course/php-criando-aplicacao/certificate",
+    "imageUrl": ""
+  },
+  {
+    "id": 27,
+    "title": "PHP: EVOLUA SEU CONHECIMENTO E ORGANIZE SEU CÓDIGO",
+    "institution": "Alura",
+    "area": "Backend",
+    "hours": 8,
+    "year": 2026,
+    "credentialUrl": "https://cursos.alura.com.br/user/francisco-naifa/course/php-evolua-conhecimento-organize-codigo/certificate",
     "imageUrl": ""
   }
 ]
