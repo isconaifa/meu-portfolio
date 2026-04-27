@@ -22,5 +22,13 @@
     "techs": ["Angular", "TypeScript", "HTML", "CSS"],
     "category": "Frontend",
     "githubUrl": "https://github.com/isconaifa/Angular-aplic"
+  },
+  {
+    "id": 4,
+    "title": "Agente de IA para Documentos (RAG)",
+    "description": "API construída em Golang que utiliza a arquitetura RAG e o modelo Google Gemini para realizar buscas semânticas e responder perguntas com base em PDFs.",
+    "techs": ["Golang", "Gin", "PostgreSQL", "pgvector", "Gemini API"],
+    "category": "Backend",
+    "githubUrl": "https://github.com/isconaifa/rag-document-agent-go"
   }
 ]
