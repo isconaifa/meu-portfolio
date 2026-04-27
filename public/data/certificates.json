@@ -278,5 +278,15 @@
   "year": 2026,
   "credentialUrl": "https://www.udemy.com/certificate/UC-6d13bfcc-27ad-4662-a367-0eac7e6040e8",
   "imageUrl": ""
+},
+{
+  "id": 29,
+  "title": "Spring Boot 3: aplique boas práticas e proteja uma API Rest",
+  "institution": "Alura",
+  "area": "Backend",
+  "hours": 12,
+  "year": 2026,
+  "credentialUrl": "https://cursos.alura.com.br/user/francisco-naifa/course/spring-boot-aplique-boas-praticas-proteja-api-rest/certificate",
+  "imageUrl": ""
 }
 ]
