@@ -298,5 +298,15 @@
   "year": 2026,
   "credentialUrl": "https://cursos.alura.com.br/user/francisco-naifa/course/spring-boot-3-documente-teste-prepare-api-deploy/certificate",
   "imageUrl": ""
+},
+{
+  "id": 31,
+  "title": "JAVA E SPRING BOOT",
+  "institution": "Alura",
+  "area": "Java",
+  "hours": 32,
+  "year": 2026,
+  "credentialUrl": "https://cursos.alura.com.br/user/francisco-naifa/degree-spring-boot-3-475714/certificate",
+  "imageUrl": ""
 }
 ]
