@@ -288,5 +288,15 @@
   "year": 2026,
   "credentialUrl": "https://cursos.alura.com.br/user/francisco-naifa/course/spring-boot-aplique-boas-praticas-proteja-api-rest/certificate",
   "imageUrl": ""
+},
+{
+  "id": 30,
+  "title": "Spring Boot 3: documente, teste e prepare uma API para o deploy10",
+  "institution": "Alura",
+  "area": "Backend",
+  "hours": 10,
+  "year": 2026,
+  "credentialUrl": "https://cursos.alura.com.br/user/francisco-naifa/course/spring-boot-3-documente-teste-prepare-api-deploy/certificate",
+  "imageUrl": ""
 }
 ]
